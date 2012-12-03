@@ -7,7 +7,7 @@ Example:
 import MouseTrap
 
 # capture mouse positions
-mouseTrap = MouseTrap()
+mouseTrap = MouseTrap.MouseTrap()
 mouseTrap.open()
 
 # read mouse positions
