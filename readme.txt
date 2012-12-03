@@ -11,7 +11,7 @@ mouseTrap = MouseTrap()
 mouseTrap.open()
 
 # read mouse positions
-positions = mouseTrap.getMousePositions()
+positions = mouseTrap.getPositions()
 
 # ...do something with the positions...
 
@@ -19,7 +19,7 @@ positions = mouseTrap.getMousePositions()
 mouseTrap.open()
 
 # read mouse positions again
-positions = mouseTrap.getMousePositions()
+positions = mouseTrap.getPositions()
 
 # ...do something else with the positions...
 
