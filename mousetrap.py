@@ -51,6 +51,9 @@ class MouseTrap:
         axisDimensions = 0
         axisPairs = 1
         numpyPositions = numpy.concatenate(self.positions, axis=axis)
+        numpyPositions.resize((len(self.positions), 2))
+        if (axis == axisDimensions):
+            numpyPositions = numpyPositions.transpose()
         return numpyPositions
 
     # print the current positions to the console
